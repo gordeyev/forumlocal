@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "MSU society",
+  "description": "This extension shows a Google Image search result for the current page",
+  "version": "0.1",
+
+  "browser_action": {
+    "default_icon": "images/19x19.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["js/app.js"]
+  },
+  "permissions": [
+    "activeTab",
+    "https://forumlocal.ru/"
+  ]
+}
